@@ -11,6 +11,7 @@ class Node {
 }
 
 public class Traversal {
+    static int count = 0;
 
     public static void inorder(Node root) {
         if (root == null) {
@@ -23,13 +24,14 @@ public class Traversal {
     }
 
     public static void preorder(Node root) {
+        // System.out.println(count);
         if (root == null) {
             return;
         }
+        count++;
         System.out.println("Preorder = " + root.data);
         preorder(root.left);
         preorder(root.right);
-
     }
 
     public static void main(String[] args) {
