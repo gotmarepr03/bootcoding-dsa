@@ -24,12 +24,13 @@ public class BubbleSort {
 
             }
         }
+
     }
 
     public static void printArray(int n, int A[]) {
 
         for (int i = 0; i < n; i++) {
-            
+
             System.out.println(A[i]);
         }
 
