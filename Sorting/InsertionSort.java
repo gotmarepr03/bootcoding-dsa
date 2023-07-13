@@ -4,9 +4,9 @@ public class InsertionSort {
         int n = 6;/* Length of an array */
         int A[] = { 32, 12, 23, 19, 21, 10 };/* Unsorted Array */
 
-        BubbleSort.sort(n, A);/* Calling sort Method directly by Class name becaause it is static */
+        InsertionSort.sort(n, A);/* Calling sort Method directly by Class name becaause it is static */
         System.out.println("Sorted Array is ");
-        BubbleSort.printArray(n, A); /* Print the Sorted Array */
+        InsertionSort.printArray(n, A); /* Print the Sorted Array */
     }
 
     // Sorting the Array
