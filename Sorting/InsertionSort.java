@@ -17,7 +17,7 @@ public class InsertionSort {
             int current = A[i];/* considering the value at A[i] A current */
             int j = i - 1;
 
-            while (j >= 0 && current < A[i]) {
+            while (j >= 0 && current < A[j]) {
                 A[j + 1] = A[j];
                 j--;
             }
